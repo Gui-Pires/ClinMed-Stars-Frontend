@@ -1,0 +1,78 @@
+.navbar {
+    background-color: rgba(75, 75, 99, 0.6);
+}
+
+.nav-mobile {
+    background-color: rgba(75, 75, 99, 1);
+}
+
+.nav-space {
+    padding-top: 10vh;
+}
+
+.img-logo {
+    height: 5vh;
+    vertical-align: text-bottom !important;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+#chat-container {
+    height: 92vh;
+    overflow-y: auto;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chat-style {
+    min-height: auto;
+    background-color: transparent !important;
+    border: none;
+}
+
+.msg-style {
+    position: relative;
+    width: auto;
+    max-width: 75% !important;
+    min-width: 20% !important;
+}
+
+/* .user-assistant {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    background-color: rgba(75, 75, 99, 0.1);
+    border-radius: 50%;
+} */
+
+#inputMsg {
+    scale: .9;
+}
+
+#input-msg-chat {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.input-chat-style {
+    height: 7vh;
+    z-index: 1;
+}
