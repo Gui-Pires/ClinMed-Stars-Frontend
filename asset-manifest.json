@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ClinMed-Stars-Frontend/static/css/main.d699072f.css",
+    "main.js": "/ClinMed-Stars-Frontend/static/js/main.5eed03f8.js",
+    "static/media/Star-Logo.png": "/ClinMed-Stars-Frontend/static/media/Star-Logo.8503f9065b7dae822b2e.png",
+    "index.html": "/ClinMed-Stars-Frontend/index.html",
+    "main.d699072f.css.map": "/ClinMed-Stars-Frontend/static/css/main.d699072f.css.map",
+    "main.5eed03f8.js.map": "/ClinMed-Stars-Frontend/static/js/main.5eed03f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d699072f.css",
+    "static/js/main.5eed03f8.js"
+  ]
+}
