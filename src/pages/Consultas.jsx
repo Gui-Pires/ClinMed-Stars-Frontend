@@ -11,7 +11,7 @@ function Consultas({ usuario }) {
             try {
                 // const resposta = await fetch('http://localhost:3000/chat/consultas');
                 console.log(usuario)
-                const resposta = await fetch('http://localhost:3000/chat/consultas', {
+                const resposta = await fetch('https://clinmed-stars-backend-production.up.railway.app/consultas', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ cpf: usuario.cpf, tipo: usuario.tipo }),

@@ -50,7 +50,7 @@ function Chat({ usuario }) {
 
         try {
             console.log('Iniciando requisição ao back')
-            const resposta = await fetch('http://localhost:3000/chat', {
+            const resposta = await fetch('https://clinmed-stars-backend-production.up.railway.app/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: mensagem, cpf: usuario.cpf }),

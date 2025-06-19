@@ -17,7 +17,7 @@ function AuthPage({ onLoginSuccess }) {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const API_BASE = 'http://localhost:3000';
+        const API_BASE = 'https://clinmed-stars-backend-production.up.railway.app';
         const url = modo === 'login' ? `${API_BASE}/auth/login` : `${API_BASE}/auth/register`;
 
         try {
