@@ -25,7 +25,7 @@ function App() {
     };
 
     return (
-        <Router basename="/ClinMed-Stars-Frontend">
+        <Router>
             {usuario && <AppNavbar onLogout={() => {
                 setUsuario(null);
                 localStorage.removeItem('usuario'); // caso esteja salvando no localStorage
